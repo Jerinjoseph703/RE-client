@@ -1,0 +1,39 @@
+/* PropertyTable.css */
+
+.property-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .property-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .property-table thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .property-table th,
+  .property-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .property-table th {
+    font-weight: bold;
+  }
+  
+  .property-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .property-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  

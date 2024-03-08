@@ -1,0 +1,19 @@
+.property-card {
+  margin-bottom: 20px;
+}
+
+.property-content {
+  display: flex;
+  align-items: center;
+}
+.property-info{
+  margin-left: 500px;
+}
+.property-info h3{
+  font-size: 2rem;
+}
+.property-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}

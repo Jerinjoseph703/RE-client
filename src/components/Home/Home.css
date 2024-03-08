@@ -1,0 +1,67 @@
+.hero-img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+
+.hero-img > img {
+    width: 100%;
+    height: 100vh;
+   
+}
+.gradient{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-size: cover; 
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #090909;
+
+}
+
+
+
+.hero-text>p{
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.home-button {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    padding: 50px 30px;
+    box-sizing: border-box; 
+     
+}
+
+.buttons {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: #1E90FF;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.buttons:hover {
+    transform: scale(1.1);
+}
